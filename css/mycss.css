@@ -1,0 +1,180 @@
+/*body{
+    background-image: url('../img/background.svg');
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-position: center;*/
+    /* width: 100px;
+    height: 100px; */
+/*}*/
+
+body{
+    background-image: url('../img/background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* overflow-x: hidden;  */
+    font-family: 'Markazi Text','Times New Roman', Times, serif;
+    /* height: 100%; */
+    background-size: cover;
+}
+.div1{
+    border: 2px solid white;
+    border-radius: 20px;
+    /* background-color:#211456; */
+    background-color: rgba(33, 20, 86, 0.6);
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.div1 input[type=text] {
+    border: none;
+    font-size: 25px;
+    background-color: rgba(33, 20, 86, 0.1);
+    color: white;
+    border-bottom: 3px solid white;
+  }
+.div1 textarea:focus ,input:focus{
+    outline: none;
+}
+#d2{
+    color: white;
+    font-size: 40px;
+    padding: 15px 0px;
+}
+
+/* style="margin: 15px 0px; width: 50%;border-radius: 25px;" */
+.button-style{
+    /* background-color: #211456; */
+    background-color:rgba(33, 20, 86, 0.6);
+    color: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 3px solid white;
+    margin: 20px 0px;
+}
+
+
+
+.popleftside{
+  /* background-color: red; */
+  background-image: url('../img/popupimg3.png');
+  /* width: 100%; */
+  height: 100%; 
+  background-position: center;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+  background-size: cover;
+}
+
+.popupform{
+  background-color: #2F2065;
+  padding: 60px 40px;
+}
+
+.popupform input[type=text] {
+  border: none;
+  font-size: 25px;
+  background-color: #D5D2E0;
+  color: black;
+   width:90%;
+   margin-left: 20px;
+   margin-bottom: 40px;
+   border-radius: 12px;
+  
+}
+/* 
+width: 90%;
+margin-left: 20px;
+background-color: #D5D2E0;
+border-radius: 8px; */
+
+.popupform select{
+  border: none;
+  font-size: 25px;
+  background-color: #D5D2E0;
+  color: black;
+   width:90%;
+   height: auto !important;
+   margin-left: 20px;
+   margin-bottom: 40px;
+   border-radius: 8px;
+   padding: 5px;
+   
+  
+}
+
+.popupform textarea:focus ,input:focus{
+  outline: none;
+  border: none;
+}
+
+.modal-lg {
+  max-width: 70% !important;
+}
+
+@media (max-width: 576px) {
+  .modal-lg {
+    max-width: 70% !important;
+    margin-left: 50px !important;
+  }
+}
+
+/* toss popup modal*/
+/* .toss{
+  height: 100px;
+  background-color: #1B0E49;
+  border-radius: 70px; */
+  /* padding: 25px 30px; */
+  /* border: 2px solid white;
+} */
+
+.toss-style{
+  /* background-color: #211456; */
+  background-color:rgba(33, 20, 86, 0.6);
+  color: white;
+  height: 100px;
+  /* width: 100%; */
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  border: 3px solid white !important;
+  margin: 20px 0px;
+}
+/* 
+toss-style:onclick{
+  border: 3px solid red !important;
+} */
+
+.batboloption{
+  background-color: #180B4A;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 25px 15px 250x 15px;
+}
+
+.batbol-style{
+  /* background-color: #211456; */
+  background-color:rgba(33, 20, 86, 0.6);
+  color: white;
+  height: 80px;
+  /* width: 100%; */
+  width: 100%;
+  padding: 8px;
+  border-radius: 50px;
+  border: 3px solid white !important;
+  margin: 30px 0px;
+}
+
+.result{
+  border: 2px solid white;
+  border-radius: 50%;
+  /* height: 300px; */
+}
+
+.bat{
+  border: 2px solid white;
+  padding: 20px 5px;
+  border-radius: 35px;
+  margin: 15px 0px;
+  }

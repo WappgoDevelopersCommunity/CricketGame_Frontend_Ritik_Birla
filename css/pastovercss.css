@@ -1,0 +1,22 @@
+body{
+    background-image: url('../img/background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden; 
+    font-family: 'Markazi Text','Times New Roman', Times, serif;
+    height: 100%;
+    /* background-size: cover; */
+}
+
+
+.modal-lg {
+    max-width: 85% !important;
+  }
+  
+  @media (max-width: 576px) {
+    .modal-lg {
+      max-width: 80% !important;
+      margin-left: 50px !important;
+    }
+  }
+  
